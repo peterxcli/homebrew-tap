@@ -1,11 +1,11 @@
 cask "ccost" do
-  version "0.2.8"
+  version "0.2.9"
   arch arm: "aarch64", intel: "x86_64"
 
-  sha256 arm: "fcf8839ccded3267151f5010f7e1bec553dd67d57b369f864f47c7f4a5491a98",
-         intel: "29da8194e482df76caa68ef6c9fdca75cb80b772ee7f2b9e99754ceb6a264e63"
+  sha256 arm: "178a74ace8548456cbe6c032dab7e92a9e612e9e6d9bab1a49211bb9e03b604c",
+         intel: "db562214367d17f9a17511dcfc9d86a17d8840bbd2260c1c723825ddcda1fc13"
 
-  url "https://github.com/peterxcli/homebrew-ccost/releases/download/ccost-v#{version}/ccost-#{arch}-apple-darwin.tar.gz"
+  url "https://github.com/peterxcli/homebrew-tap/releases/download/ccost-v#{version}/ccost-#{arch}-apple-darwin.tar.gz"
   name "ccost"
   desc "Terminal UI for inspecting Codex session token usage and cost estimates"
   homepage "https://github.com/peterxcli/ccost"

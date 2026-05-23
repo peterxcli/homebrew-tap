@@ -2,7 +2,9 @@
 
 Homebrew tap for peterxcli tools.
 
-## Casks
+## codex-cost
+
+macOS and Linux:
 
 ```bash
 brew install --cask peterxcli/tap/codex-cost

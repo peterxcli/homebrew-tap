@@ -1,9 +1,9 @@
 cask "codex-cost" do
-  version "0.2.2"
+  version "0.2.4"
   arch arm: "aarch64", intel: "x86_64"
 
-  sha256 arm: "3fd16d28ec7dd82689aed131ab2876ef33567238bf94adcb7d61fa63d9810c18",
-         intel: "6c751531176a9fa7da5ab0862cf14ee54d0a3d4ed439afebe6949ceb8d842881"
+  sha256 arm: "d78af43392872b32a7f2a474b1c741996e51a09e68b3f16f0586f09478936236",
+         intel: "faaa9d942a349be10fc38fa19f56b05b865e7d6040e1d6595dd24b6d83ca5193"
 
   url "https://github.com/peterxcli/homebrew-tap/releases/download/codex-cost-v#{version}/codex-cost-#{arch}-apple-darwin.tar.gz"
   name "codex-cost"

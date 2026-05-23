@@ -1,4 +1,4 @@
-cask "codex-cost" do
+cask "ccost" do
   version "0.2.6"
   arch arm: "aarch64", intel: "x86_64"
 
@@ -7,7 +7,7 @@ cask "codex-cost" do
 
   url "https://github.com/peterxcli/homebrew-tap/releases/download/ccost-v#{version}/ccost-#{arch}-apple-darwin.tar.gz"
   name "ccost"
-  desc "Compatibility cask for ccost"
+  desc "Terminal UI for inspecting Codex session token usage and cost estimates"
   homepage "https://github.com/peterxcli/codex-cost"
 
   binary "ccost"

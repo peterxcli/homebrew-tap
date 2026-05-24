@@ -1,12 +1,12 @@
 cask "ccost" do
-  version "0.2.10"
+  version "0.2.11"
   os macos: "apple-darwin", linux: "unknown-linux-gnu"
   arch arm: "aarch64", intel: "x86_64"
 
-  sha256 arm: "f85eb98a99401105c980b07b32fa794adf249732911d4b7c504512adb46e03a9",
-         x86_64: "c38d1072255b8ed8965f975d743cb0344c35e2d269caca8580a329f66ca5cd5a",
-         arm64_linux: "c41cbfbf94dd45fffd75aeb1e7e2d587f6b017425252e2687c2145aaec6b53fe",
-         x86_64_linux: "0ab326b12820716244a0f7e32d7e17eedabeea51b9ac49856ed3b5d921f499f5"
+  sha256 arm: "b76b79f2449d06697b3d5adc42f0c8fc2ec79ed9253487cbbb9c529500e0899a",
+         x86_64: "df2b0062ca36b92929c21d92de5ffdf3fd798607af4115eeb9024a9b55456eb8",
+         arm64_linux: "56d0f1314c624a7a9fa33358b4c39a9851ac6b66fafe82cfd1e9028845754448",
+         x86_64_linux: "f8c66b57971a3d1bb68730b9653a597e0d1f4c6e2986da3b2a456f95369a95c9"
 
   url "https://github.com/peterxcli/ccost/releases/download/v#{version}/ccost-#{arch}-#{os}.tar.gz"
   name "ccost"
